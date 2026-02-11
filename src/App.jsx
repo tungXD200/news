@@ -70,12 +70,12 @@ function Login({ onLogin }) {
     e.preventDefault();
 
     if (!username || !password) {
-      setError("กรุณากรอกข้อมูลให้ครบ");
+      setError("กรุณากรอกข้อมูลให้ครบไอกาก");
       return;
     }
 
     if (password !== CORRECT_PASSWORD) {
-      setError("รหัสผ่านไม่ถูกต้อง");
+      setError("รหัสผ่านไม่ถูกต้องเพราะกากเกินคน");
       return;
     }
 
